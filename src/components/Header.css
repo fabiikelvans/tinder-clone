@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo{
+    height: 40px;
+    width: 60px;
+    object-fit: contain;
+}
+
+.header__icon{
+    padding: 20px;
+}
+
+.header .MuiIconButton-root .MuiSvgIcon-root{
+    color: #676a7e;
+  }
+
+  .header .MuiIconButton-root{
+      background-color: #181a2b;
+  }
